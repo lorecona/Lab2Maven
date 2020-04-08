@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b02df3aa-7714-469d-9f23-e86ee9406387" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractXMLRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="1224">
               <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractCrudRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="612">
               <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+            <state relative-caret-position="295">
+              <caret line="142" column="69" selection-start-line="142" selection-start-column="69" selection-end-line="142" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/app/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="323">
               <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,15 +103,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -138,7 +130,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/view/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/service/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/validation/NotaValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/validation/TemaValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/repository/StudentXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/repository/TemaFileRepository.java" />
@@ -147,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/repository/NotaXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/repository/NotaFileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractXMLRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java" />
       </list>
     </option>
@@ -170,8 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,6 +288,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,21 +315,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testAddTemaFailure">
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2Maven.app.MainApplication" />
-      <module name="Lab2Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2Maven.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.testAddStudentFailGroupEmailEmpty">
+    <configuration name="AppTest.testAddStudentFailGroupEmailEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2Maven" />
       <extension name="coverage">
         <pattern>
@@ -347,13 +326,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lab2Maven" />
       <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="testAddStudentFailGroupEmailEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddStudentFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testAddStudentFailGroupEmailNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2Maven" />
       <extension name="coverage">
         <pattern>
@@ -363,13 +342,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lab2Maven" />
       <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
-      <option name="METHOD_NAME" value="testAddStudentFail" />
+      <option name="METHOD_NAME" value="testAddStudentFailGroupEmailNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddTemaFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testAddStudentFailGroupMinPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2Maven" />
       <extension name="coverage">
         <pattern>
@@ -379,13 +358,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lab2Maven" />
       <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
-      <option name="METHOD_NAME" value="testAddTemaFailure" />
+      <option name="METHOD_NAME" value="testAddStudentFailGroupMinPlus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAddTemaSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testAddStudentSuccessGroupMaxMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2Maven" />
       <extension name="coverage">
         <pattern>
@@ -395,7 +374,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lab2Maven" />
       <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
-      <option name="METHOD_NAME" value="testAddTemaSuccess" />
+      <option name="METHOD_NAME" value="testAddStudentSuccessGroupMaxMinus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testAddStudentSuccessGroupMinMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2Maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab2Maven" />
+      <option name="MAIN_CLASS_NAME" value="Lab2Maven.AppTest" />
+      <option name="METHOD_NAME" value="testAddStudentSuccessGroupMinMinus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -403,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testAddTemaFailure" />
-        <item itemvalue="JUnit.AppTest.testAddTemaSuccess" />
-        <item itemvalue="JUnit.AppTest.testAddStudentFail" />
-        <item itemvalue="JUnit.AppTest.test1" />
-        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.AppTest.testAddStudentFailGroupEmailEmpty" />
+        <item itemvalue="JUnit.AppTest.testAddStudentFailGroupEmailNull" />
+        <item itemvalue="JUnit.AppTest.testAddStudentFailGroupMinPlus" />
+        <item itemvalue="JUnit.AppTest.testAddStudentSuccessGroupMinMinus" />
+        <item itemvalue="JUnit.AppTest.testAddStudentSuccessGroupMaxMinus" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +417,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584108172561</updated>
       <workItem from="1584108175887" duration="5047000" />
-      <workItem from="1585312206351" duration="1411000" />
+      <workItem from="1585312206351" duration="4207000" />
+      <workItem from="1586353296006" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1584111942124</created>
@@ -431,49 +427,63 @@
       <option name="project" value="LOCAL" />
       <updated>1584111942124</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="message">
+      <created>1585313792615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585313792615</updated>
+    </task>
+    <task id="LOCAL-00003" summary="message">
+      <created>1585315093047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585315093047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_test1 - 2020.03.13 at 16h 44m 20s.xml">
-      <configuration name="AppTest.test1" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentFailIdNull - 2020.04.08 at 15h 07m 10s.xml">
+      <configuration name="AppTest.testAddStudentFailIdNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_test1 - 2020.03.13 at 16h 44m 24s.xml">
-      <configuration name="AppTest.test1" configurationId="JUnit" />
+    <history-entry file="AppTest - 2020.04.08 at 15h 10m 06s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddStudentFail - 2020.03.13 at 16h 57m 05s.xml">
-      <configuration name="AppTest.testAddStudentFail" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentFailGroupMin - 2020.04.08 at 15h 15m 00s.xml">
+      <configuration name="AppTest.testAddStudentFailGroupMin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddStudentFail - 2020.03.13 at 16h 57m 51s.xml">
-      <configuration name="AppTest.testAddStudentFail" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentFailGroupEmpty - 2020.04.08 at 15h 15m 20s.xml">
+      <configuration name="AppTest.testAddStudentFailGroupEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddTemaSuccess - 2020.03.27 at 14h 38m 48s.xml">
-      <configuration name="AppTest.testAddTemaSuccess" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentSuccessGroupZero - 2020.04.08 at 15h 17m 37s.xml">
+      <configuration name="AppTest.testAddStudentSuccessGroupZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddTemaSuccess - 2020.03.27 at 14h 41m 11s.xml">
-      <configuration name="AppTest.testAddTemaSuccess" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentSuccessGroupMax - 2020.04.08 at 15h 18m 19s.xml">
+      <configuration name="AppTest.testAddStudentSuccessGroupMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddTemaSuccess - 2020.03.27 at 14h 42m 18s.xml">
-      <configuration name="AppTest.testAddTemaSuccess" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentFailGroupMaxPlus - 2020.04.08 at 15h 19m 29s.xml">
+      <configuration name="AppTest.testAddStudentFailGroupMaxPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddTemaSuccess - 2020.03.27 at 14h 43m 01s.xml">
-      <configuration name="AppTest.testAddTemaSuccess" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentSuccessGroupMaxMinus - 2020.04.08 at 15h 20m 00s.xml">
+      <configuration name="AppTest.testAddStudentSuccessGroupMaxMinus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddTemaSuccess - 2020.03.27 at 14h 43m 31s.xml">
-      <configuration name="AppTest.testAddTemaSuccess" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentSuccessGroupMinMinus - 2020.04.08 at 15h 27m 43s.xml">
+      <configuration name="AppTest.testAddStudentSuccessGroupMinMinus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testAddTemaFailure - 2020.03.27 at 14h 43m 35s.xml">
-      <configuration name="AppTest.testAddTemaFailure" configurationId="JUnit" />
+    <history-entry file="AppTest_testAddStudentFailGroupMinPlus - 2020.04.08 at 15h 28m 27s.xml">
+      <configuration name="AppTest.testAddStudentFailGroupMinPlus" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6458000" />
+    <option name="totallyTimeSpent" value="11937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19248827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17907445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -669,6 +679,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractXMLRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractCrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fisiere/Note.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -682,37 +719,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/app/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="323">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/validation/StudentValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -726,20 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lab2Maven/repository/AbstractCrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lab2Maven/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="93" column="67" lean-forward="true" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+        <state relative-caret-position="295">
+          <caret line="142" column="69" selection-start-line="142" selection-start-column="69" selection-end-line="142" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
