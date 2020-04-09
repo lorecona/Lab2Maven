@@ -163,4 +163,52 @@ public class AppTest
         assertSame(this.service.addTema(tema), tema);
         this.service.deleteTema("20");
     }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureIdNull(){
+        Tema tema = new Tema(null, "desc", 7, 6);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureIdEmpty(){
+        Tema tema = new Tema("", "desc", 7, 6);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureDescNull(){
+        Tema tema = new Tema("20", null, 7, 6);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureDescEmpty(){
+        Tema tema = new Tema("20", "", 7, 6);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureDeadlineSmall(){
+        Tema tema = new Tema("20", "desc", 0, 6);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureDeadlineBig(){
+        Tema tema = new Tema("20", "desc", 15, 6);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureDeliverySmall(){
+        Tema tema = new Tema("20", "desc", 7, 0);
+        this.service.addTema(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void testAddTemaFailureDeliveryBig(){
+        Tema tema = new Tema("20", "desc", 7, 15);
+        this.service.addTema(tema);
+    }
 }
