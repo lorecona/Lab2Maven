@@ -211,4 +211,18 @@ public class AppTest
         Tema tema = new Tema("20", "desc", 7, 15);
         this.service.addTema(tema);
     }
+
+    @Test
+    public void testAddGradeSuccess(){
+        LocalDate data = LocalDate.of(2018,3,27);
+        Nota nota = new Nota("10","1","6",10,data);
+        this.service.addNota(nota,"feedback");
+    }
+
+    @Test
+    public void cluster(){
+        this.testAddStudentSuccess();
+        this.testAddTemaSuccess();
+        this.testAddGradeSuccess();
+    }
 }
