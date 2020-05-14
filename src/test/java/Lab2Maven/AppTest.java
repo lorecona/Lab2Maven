@@ -53,7 +53,7 @@ public class AppTest
     public void testAddStudentSuccess(){
         Student student = new Student("10","name",936,"email");
         assertNull(this.service.addStudent(student));
-        this.service.deleteStudent("10");
+        //this.service.deleteStudent("10");
     }
 
     @Test(expected = ValidationException.class)
@@ -155,6 +155,7 @@ public class AppTest
     public void testAddTemaSuccess(){
         Tema tema = new Tema("20", "desc", 7, 6);
         assertNull(this.service.addTema(tema));
+        //this.service.deleteTema("20");
     }
 
     @Test
@@ -217,6 +218,24 @@ public class AppTest
         LocalDate data = LocalDate.of(2018,3,27);
         Nota nota = new Nota("10","1","6",10,data);
         this.service.addNota(nota,"feedback");
+    }
+
+    //------------------------------------------------INTEGRATION------------------------------------------------------
+
+    @Test
+    public void testAddTemaIntegration(){
+        this.testAddStudentSuccess();
+        this.testAddTemaSuccess();
+    }
+
+    @Test
+    public void testAddGradeIntegration(){
+        this.testAddTemaIntegration();
+        LocalDate data = LocalDate.of(2018,3,27);
+        Nota nota = new Nota("10","10","20",10,data);
+        this.service.addNota(nota,"feedback");
+        this.service.deleteStudent("10");
+        this.service.deleteTema("20");
     }
 
     @Test
